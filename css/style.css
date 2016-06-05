@@ -22,7 +22,7 @@ body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
   color: #878cb0;
-  background-color: #3f435f;
+  background-color: #fff;
 }
 
 a {
@@ -35,7 +35,7 @@ img {
 }
 
 h1, h2 {
-  color: #ffffff;
+  color: #878cb0;
 }
 
 /* -------------------------------- 
@@ -51,11 +51,12 @@ Modules - reusable parts of our design
   font-size: 12px;
   font-size: 0.75rem;
   color: #ffffff;
-  background-color: #696f9b;
+  background-color: #0083cc;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
+        border-radius: 50px;
 }
 .no-touch .btn:hover {
   background-color: #787ea5;
@@ -120,9 +121,9 @@ html, body {
   margin: 18px 0 0 5%;
 }
 .cd-header #cd-logo img {
-  display: block;
-  width: 60px;
-  height: 18px;
+  /*display: block;
+   width: 60px;
+  height: 18px;*/
 }
 .cd-header #cd-action {
   display: inline-block;
@@ -152,8 +153,8 @@ html, body {
     font-size: 1.75rem;
   }
   .cd-header #cd-logo img {
-    width: 80px;
-    height: 25px;
+    width: 140px;
+   /* height: 25px;*/
   }
   .cd-header #cd-action {
     margin: 20px 5% 0 0;
@@ -567,10 +568,10 @@ html, body {
   text-indent: 100%;
   white-space: nowrap;
   color: transparent;
-  background: #353850;
+  background: #0083cc !important;
 }
 .no-touch .cd-slider-nav a:hover {
-  background: #2f3246;
+  background: #0070AF;
 }
 .cd-slider-nav a::before {
   /*this is the bacgrounf arrow - we have been used a before element to change the opacity on hover*/
